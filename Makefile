@@ -9,7 +9,7 @@ OBJ = core/beaglebonebw/basics.o core/beaglebonebw/peripherals/gpio/simpleBBB_GP
 BeagleboneB-HTTP: $(OBJ)
 	@echo "\nCompiling..."
 	$(CC) -o $@ $^ $(CFLAGS) 
-	@echo "\nCompiled Finished, now you can run your code with: '$ ./Beaglebone-HTTP'\n"
+	@echo "\nCompiled Finished, now you can run your code with: '$ ./BeagleboneB-HTTP'\n"
 	@$ find . -name "*.o" -type f -delete
 
 help:
