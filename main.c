@@ -27,7 +27,7 @@ int main ()
 	    generateJson(&d);
 
 
-	    t_delay(dev.interv, take_time() - init_t);  /* compensated delay */
+	    t_delay(d.interv, take_time() - init_t);  /* compensated delay */
     }    
     return 0;
 }
