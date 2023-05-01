@@ -47,7 +47,7 @@ void simpleBBB_GPIOwrite(int gpio, bool l_val) //   Write Digital Logic    false
 	f_val = open(path(gpio, "val"), O_RDWR);
 
 	if (l_val)
-    	write(f_val "1", 1);
+    	write(f_val, "1", 1);
 	else
     	write(f_val, "0", 1);
 
